@@ -1,0 +1,44 @@
+.book-details {
+  padding: 4rem 0;
+}
+
+.back-btn {
+  margin-bottom: 2rem;
+}
+
+.book-details-paper {
+  padding: 3rem;
+  text-align: center;
+}
+
+.book-details-img img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 2rem;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.book-details-info {
+  text-align: center;
+}
+
+.book-title {
+  font-weight: 700;
+  color: #5e35b1;
+  margin-bottom: 1.5rem;
+}
+
+.book-description {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.book-meta {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #444;
+}

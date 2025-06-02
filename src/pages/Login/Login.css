@@ -1,0 +1,77 @@
+.login-background {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://images.unsplash.com/photo-1512820790803-83ca734da794') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  height: 250px;
+}
+
+.login-paper {
+  padding: 3rem 3rem;
+  border-radius: 16px;
+  background-color: #ffffffee;
+  backdrop-filter: blur(6px);
+  width: 100%;
+  max-width: 480px; /* Increased width */
+  margin: 0 auto;
+}
+
+.login-button {
+  margin: 1.0rem;
+  background-color: #673ab7;
+  font-weight: 500;
+  font-size: 1.7rem; /* Larger text */
+  padding: 0.5rem;     /* Taller button */
+}
+
+
+.login-title {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #512da8;
+  font-size: 2.5rem;
+}
+.login-title h4{
+  padding: 20px;
+  /* margin-bottom: 2rem; */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 200px;
+}
+
+
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.login-link {
+  font-size: 1.3rem;
+  color: #673ab7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-link:hover {
+  color: #311b92;
+}
+.MuiInputBase-root {
+  font-size: 1.2rem;
+  padding: 0.3rem 0.75rem;
+  height: 48px; /* Reduced height */
+}
+
+.MuiInputLabel-root {
+  font-size: 1.2rem;
+}

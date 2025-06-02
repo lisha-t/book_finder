@@ -1,0 +1,75 @@
+.signup-background {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://images.unsplash.com/photo-1512820790803-83ca734da794') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.signup-paper {
+  padding: 3rem 3rem;
+  border-radius: 16px;
+  background-color: #ffffffee;
+  backdrop-filter: blur(6px);
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.signup-title {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #512da8;
+  font-size: 2.5rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.signup-button {
+  margin: 1rem 0;
+  background-color: #673ab7;
+  font-weight: 500;
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #512da8;
+}
+
+.signup-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.signup-link {
+  font-size: 1.3rem;
+  color: #673ab7;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link:hover {
+  color: #311b92;
+}
+
+.MuiInputBase-root {
+  font-size: 1.2rem;
+  padding: 0.3rem 0.75rem;
+  height: 48px;
+}
+
+.MuiInputLabel-root {
+  font-size: 1.2rem;
+}

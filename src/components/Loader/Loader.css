@@ -1,0 +1,51 @@
+.loader {
+  padding: 4rem 0;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #8d27ae, #5e60ce);
+  color: #fff;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.loader-img {
+  width: 100px;
+  margin-bottom: 1.5rem;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.loader-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,32 @@
+.search-form-wrapper {
+  width: 100%;
+  max-width: 750px; /* Increased width */
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.search-form-paper {
+  border-radius: 50px;
+  background-color: transparent !important; /* Transparent background */
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: none !important;
+}
+
+.search-input .MuiOutlinedInput-root {
+  border-radius: 50px;
+  /* background-color: #fff; */
+  background-color: white;
+  height: 60px; /* Taller input */
+}
+
+.search-input input {
+  padding: 1rem 1.2rem;
+  font-size: 1.4rem; /* Larger text */
+}
+
+.MuiIconButton-root {
+  color: #090909 !important;
+  font-size: 2.8rem;
+}

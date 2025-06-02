@@ -1,0 +1,107 @@
+.mui-navbar {
+  background-color: #512da8;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+}
+
+.mui-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.mui-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.mui-logo-img {
+  width: 55px;
+  height: auto;
+  margin-right: 12px;
+  border-radius: 8px;
+}
+
+.mui-logo-text {
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+}
+
+.mui-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mui-nav-btn {
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  color: #fff !important; /* Ensures visibility */
+  background-color: #1976d2 !important; /* Solid white background */
+  text-transform: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mui-nav-btn:hover {
+  background-color: #1976d2 !important;
+  color: #010101 !important;
+}
+
+.mui-menu-btn {
+  color: white;
+  font-size: 2.6rem;
+  padding: 0.6rem;
+  background-color: #7e57c2;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.mui-menu-btn:hover {
+  transform: scale(1.1);
+  background-color: #ebe9f0;
+}
+
+.mui-menu-btn .MuiSvgIcon-root {
+  font-size: 2.5rem; /* or try 3rem for even larger */
+}
+
+
+.mui-icon {
+  font-size: 3.2rem;
+}
+
+.mui-drawer-list {
+  width: 280px;
+  padding-top: 20px;
+}
+
+.mui-drawer-item {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.mui-drawer-item:hover {
+  background-color: #ede7f6;
+}
+
+.mui-drawer-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #512da8;
+}
+
+.mui-drawer-icon {
+  color: #512da8;
+  font-size: 2rem;
+}

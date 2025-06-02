@@ -1,0 +1,66 @@
+.landing-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-img {
+  height: 100vh;
+  object-fit: cover;
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  transition: opacity 1s ease-in-out;
+}
+
+.fixed-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+  padding: 2rem;
+  background-color: transparent !important;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+
+.fixed-caption h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 800 !important;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  margin-bottom: 1.5rem;
+}
+
+.explore-btn {
+  font-size: 1.5rem !important; 
+  padding: 1rem 2rem ; 
+  font-weight: 800 !important;
+  border-radius: 8px;
+  background-color: #1976d2;
+  color: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  transform: scale(1.08);
+  background-color: #1565c0; 
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+.carousel-img {
+  width: 100%;
+  height: 100vh; 
+  object-fit: cover; 
+  object-position: center; 
+}
+
